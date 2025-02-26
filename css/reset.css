@@ -6,12 +6,15 @@
 }
 
 /* Melhorias para tipografia e suavização de fonte */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 html {
   font-size: 100%; /* 16px padrão */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-width: 100%;
-  overflow-x: hidden;
 }
 
 body {
@@ -19,7 +22,6 @@ body {
   font-family: "Exo 2", sans-serif;
   background-color: #000;
   color: #fff;
-  overflow-x: hidden;
 }
 
 /* Remover estilos padrão de lista */
