@@ -19,7 +19,7 @@ header nav {
   justify-content: space-around;
   align-items: center;
   width: 100vw;
-  height: 12dvh;
+  height: 12vh;
   background-color: #121212;
 }
 header nav .nav-list {
