@@ -21,7 +21,16 @@ header nav {
   align-items: center;
   width: 100vw;
   height: 12vh;
+  transition: 0.3s;
 }
+
+header nav.scrolling {
+  background-color: #121212;
+}
+header nav.scrolling.dark {
+  background-color: #e4e4e4;
+}
+
 header nav .nav-list {
   display: flex;
   gap: 20px;

@@ -8,3 +8,12 @@ mobileMenu.addEventListener("click", () => {
     link.classList.toggle("active");
   });
 });
+
+document.addEventListener("click", (event) => {
+  if (!menu.contains(event.target) && !mobileMenu.contains(event.target)) {
+    menu.classList.remove("active");
+    links.forEach((link) => {
+      link.classList.remove("active");
+    });
+  }
+});

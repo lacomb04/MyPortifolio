@@ -6,6 +6,7 @@ let linkHover = document.querySelectorAll("#navList li");
 let navList = document.getElementById("navList");
 
 trilho.addEventListener("click", () => {
+  navbar.classList.toggle("dark");
   trilho.classList.toggle("dark");
   body.classList.toggle("dark");
   boldNeon.forEach((elemento) => {
