@@ -29,15 +29,19 @@
     height: 40dvh;
     width: 50%;
     margin: 0 auto;
+    font-size: 1.3em;
   }
   .bannerPrincipal img {
-    width: 40dvh;
-    height: 40dvh;
+    width: 50dvh;
+    height: 50dvh;
+    margin: 0 auto 0 auto;
   }
 }
 
 @media (max-width: 800px) {
   .bannerPrincipal p {
     width: 100%;
+    padding: 0;
+    margin-top: 5px;
   }
 }
