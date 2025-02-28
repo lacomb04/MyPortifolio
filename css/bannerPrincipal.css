@@ -1,0 +1,43 @@
+.bannerPrincipal {
+  display: flex;
+  width: 60vw;
+  height: 100dvh;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  margin: 20vh auto 0 auto;
+}
+
+.bannerPrincipal p {
+  font-size: 2rem;
+  padding: 30px;
+  width: 80%;
+}
+.bannerPrincipal img {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+@media (max-width: 1250px) {
+  .bannerPrincipal {
+    width: 100vw;
+    margin: 12vh auto 0 auto;
+    padding: 30px;
+  }
+  .bannerPrincipal p {
+    height: 44dvh;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .bannerPrincipal img {
+    width: 44dvh;
+    height: 44dvh;
+  }
+}
+
+@media (max-width: 800px) {
+  .bannerPrincipal p {
+    width: 100%;
+  }
+}
