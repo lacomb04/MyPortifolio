@@ -10,7 +10,7 @@
 
 .bannerPrincipal p {
   font-size: 2rem;
-  padding: 30px;
+  padding: 0 30px 0 30px;
   width: 80%;
 }
 .bannerPrincipal img {
