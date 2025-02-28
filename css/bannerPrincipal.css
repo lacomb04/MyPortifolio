@@ -26,13 +26,13 @@
     padding: 30px;
   }
   .bannerPrincipal p {
-    height: 44dvh;
+    height: 40dvh;
     width: 50%;
     margin: 0 auto;
   }
   .bannerPrincipal img {
-    width: 44dvh;
-    height: 44dvh;
+    width: 40dvh;
+    height: 40dvh;
   }
 }
 
