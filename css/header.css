@@ -21,6 +21,7 @@ header nav {
   align-items: center;
   width: 100vw;
   height: 12vh;
+  transition: 0.5s;
 }
 
 header nav.scrolling {
